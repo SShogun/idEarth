@@ -27,7 +27,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <PrimaryButton>More</PrimaryButton>
+            <PrimaryButton>News Letter</PrimaryButton>
           </li>
         </ul>
       </div>

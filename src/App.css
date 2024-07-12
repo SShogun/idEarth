@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
 #wrapper {
   position: relative;
   height: 100%;
   width: 100%;
   color: white;
   background-image: url("../public/milky_way.jpg");
+  background-clip: content-box;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,25 +27,26 @@
 }
 
 nav {
-  height: 10vh;
-  width: 100%;
-  backdrop-filter: blur(2px);
+  height: 250px;
+  width: 100vw;
   font-size: 1.2rem;
 
   display: grid;
-  grid-template-columns: 600px 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .navLogo {
-  display: flex;
-  justify-content: start;
-  margin-left: 50px;
-  align-items: center;
-  place-items: center;
   margin-top: 20px;
+  margin-left: 50px;
+  place-items: center;
+}
+
+.navMain {
+  text-align: center;
+  font-size: 1.75rem;
 }
 
 .navTitle {
@@ -54,15 +58,20 @@ nav {
 }
 
 ul {
-  margin-left: 50px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
   list-style-type: none;
   display: grid;
-  place-items: center;
-  grid-template-columns: repeat(4, 120px);
-  grid-template-rows: 1fr;
+  place-items: right;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 50px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
 
+ul li {
+  text-align: right;
 }
 
 .link {
@@ -75,4 +84,19 @@ ul {
 
 .link:hover {
   color: #59c5e3;
+}
+
+#main {
+  font-size: 2.5rem;
+  margin-left: 50px;
+  margin-top: 0;
+}
+
+#mainSpan {
+  background: #86BB4C;
+  background: linear-gradient(to top right, #86BB4C 0%, #15B1C7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
 }

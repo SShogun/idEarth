@@ -2,12 +2,13 @@ import React from "react";
 import "../App.css";
 import Spline from "@splinetool/react-spline";
 import Navbar from "../components/Navbar";
+import Main from "../components/Main";
 export default function Home() {
   return (
     <>
       <div className="content">
         <Navbar />
-        <main></main>
+        <Main />
       </div>
       <div id="wrapper">
         <Spline
