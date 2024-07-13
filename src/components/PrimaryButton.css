@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
 button {
     background-color: #fff;
     border: none;
@@ -8,9 +10,13 @@ button {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 button:hover {
-    background-color: #59c5e3;
+    background-color: #3598b3;
     color: #fff;
 }

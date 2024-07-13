@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="navLogo">
-        <img src={logo} height={120} />
+        <img src={logo} height={150} />
       </div>
       <div className="navLinks">
         <ul>
@@ -19,11 +19,6 @@ export default function Navbar() {
           <li>
             <NavLink to="/research" className="link">
               Research
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="link" to="/about">
-              About
             </NavLink>
           </li>
           <li>
