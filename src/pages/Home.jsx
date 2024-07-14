@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div id="wrapper">
         <Spline
-          className="spline"
+          className="spine"
           scene="https://prod.spline.design/JiIU5OCa9m73w5qM/scene.splinecode"
         />
       </div>
