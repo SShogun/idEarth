@@ -2,7 +2,7 @@
 # idEarth
 
 idEarth is a Spline powered project to assist us understand our beautiful planet better.
-
+It is also my first experience in building a 3D website
 
 # Features
 
