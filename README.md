@@ -8,7 +8,7 @@ idEarth is a Spline powered project to assist us understand our beautiful planet
 
 - **Spline** powered 3D model of Earth
 - Properly routed pages
-- Custom google font DM Mono 
+- Custom google font DM Sans
 - Custom made logo using **Figma**
 
 # Tools/Technologies
